@@ -1,0 +1,29 @@
+ISIN: AT0000937503
+index: ^ATX
+train_days: 6000
+eval_days: 60
+holding_days: 5
+buy_threshold: 1.005  # y=1 if mean return over holding_days > 0.5%, else 0
+features:
+  - RawClose
+  - LogReturn
+  - Sign
+  - Volume
+  - DayOfWeek
+  - HolidaysAT
+  - RPR
+  - RSI
+  - StochasticOscillator
+  - MACD
+  - EMA5
+  - EMA20
+  - BollingerBandHigh
+  - BollingerBandLow
+  - RawIndex
+  - LogReturnIndex
+  - SignIndex
+hyperparameters:
+  look_back_window: 10
+  layers: 2
+  units: 128
+  dropout_rate: 0.3

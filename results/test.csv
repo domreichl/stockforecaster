@@ -1,0 +1,2 @@
+P;N;TP;FN;TN;FP;NPV;Precision;Recall;Accuracy;F1;PredictiveScore;ForecastBias
+13;47;7;6;21;26;0.7778;0.2121;0.5385;0.4667;0.3043;0.3333;1.0

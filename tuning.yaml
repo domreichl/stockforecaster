@@ -1,0 +1,17 @@
+replications: 1
+look_back_window:
+  - 5
+  - 10
+  - 30
+  - 90
+layers:
+  - 2
+  - 4
+  - 6
+  - 8
+units:
+  - 128
+  - 256
+dropout_rate:
+  - 0.1
+  - 0.3
